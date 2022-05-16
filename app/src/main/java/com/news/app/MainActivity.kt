@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
 }
 
 interface ArticlesService {
-    @GET("alonaviram/1184df2468f5968a4319c9e50e3dac98/raw/e208550c3862fcd2eb4d61d1be958b900cdd4afc/artickes")
+    @GET("alonaviram/2679dae36f43215743aa1cf9aac7e9f6/raw/f51b99ed2ded93ddb8556e0400232d9f038b341c/articles.json")
     fun getArticles(): Call<ServerArticlesResponse>
 }
 
